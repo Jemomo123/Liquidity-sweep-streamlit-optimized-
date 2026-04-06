@@ -1,0 +1,30 @@
+# ═══════════════════════════════════════════════════════════════════════════════
+# REQUIREMENTS.TXT - STREAMLIT CLOUD OPTIMIZED
+# ═══════════════════════════════════════════════════════════════════════════════
+#
+# Optimized for Streamlit Cloud deployment with faster installs and compatibility
+#
+# ═══════════════════════════════════════════════════════════════════════════════
+
+# Core Framework
+streamlit>=1.41.0
+
+# Data Processin
+pandas>=2.2.0
+numpy>=1.26.0
+
+# Exchange Connectivity
+ccxt>=4.4.0
+
+# Technical Indicators
+ta>=0.11.0
+
+# Utilities
+python-dateutil>=2.9.0
+requests>=2.32.0
+
+# Optional: Faster JSON processing (recommended for Streamlit Cloud)
+orjson>=3.9.0
+
+# Note: All versions pinned for stability on Streamlit Cloud
+# Last tested: April 2026
